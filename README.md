@@ -14,3 +14,5 @@ it will default to the taps.csv
  - If we get an OFF, we will have an ON
  - All the taps are sorted by time (earliest is first)
  
+ 
+ If the trips.csv already exists a second run of the app will overwrite the old file
