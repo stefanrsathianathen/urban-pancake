@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CostCalculatorTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-02-22T08:19:07" hostname="StefanMBP.local" time="0.007">
+  <properties/>
+  <testcase name="testCalculateUserTripCosts1" classname="CostCalculatorTest" time="0.001"/>
+  <testcase name="testGetPrice" classname="CostCalculatorTest" time="0.001"/>
+  <testcase name="testCalculateUserTripCosts" classname="CostCalculatorTest" time="0.001"/>
+  <testcase name="testTripStatus" classname="CostCalculatorTest" time="0.001"/>
+  <testcase name="testTripStatus1" classname="CostCalculatorTest" time="0.001"/>
+  <testcase name="testTripStatus2" classname="CostCalculatorTest" time="0.001"/>
+  <testcase name="testGetPrice1" classname="CostCalculatorTest" time="0.0"/>
+  <testcase name="testGetPrice2" classname="CostCalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+apply plugin: 'application'
+
+group 'org.stefan'
+version '1.0-SNAPSHOT'
+
+mainClassName = "com.stefan.trip.Main"
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+}
+
+jar {
+    archiveBaseName = 'trip-calc'
+    archiveVersion =  '0.1.0'
+}
+
+test {
+    useJUnit()
+
+    maxHeapSize = '1G'
+}
